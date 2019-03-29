@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hyj-mapping>
+	<class name="com.my.Student" table="student">
+		<property name="id" type="java.lang.Integer" generated="false" />
+		<property name="name" type="java.lang.String" />
+		<property name="sex" type="java.lang.Boolean" />
+		<property name="phone" type="java.lang.String" />
+		<property name="birthday" type="java.util.Date" />
+	</class>
+	<class name="com.my.Exam" table="exam">
+		<property name="id" type="java.lang.Integer" generated="false" />
+		<property name="name" type="java.lang.String" />
+		<property name="score" type="java.lang.Integer" />		
+	</class>
+</hyj-mapping>
